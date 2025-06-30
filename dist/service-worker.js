@@ -1,0 +1,1 @@
+self.addEventListener("install",e=>{e.waitUntil(caches.open("mot-cache").then(e=>e.addAll(["./","./index.html","./bundle.js","./manifest.json","./icon-192.png"])))}),self.addEventListener("fetch",e=>{e.respondWith(caches.match(e.request).then(t=>t||fetch(e.request)))});
