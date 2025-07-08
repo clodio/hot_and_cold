@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="manifest.json" />
     <link rel="apple-touch-icon" href="icon-192.png" />
-    <title>Mot Affiche Mobile</title>
+    <title>hot_and_cold</title>
   </head>
   <body>
     <noscript>Vous devez activer JavaScript pour utiliser cette application.</noscript>
@@ -17,8 +17,8 @@
 
 // /public/manifest.json
 {
-  "name": "Mot Affiche Mobile",
-  "short_name": "MotMobile",
+  "name": "hot_and_cold",
+  "short_name": "hot_and_cold",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -62,12 +62,12 @@ self.addEventListener("fetch", (event) => {
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import MotAfficheMobile from "./mot_affiche_mobile";
+import HotAndCold from "./hot_and_cold";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MotAfficheMobile />
+    <HotAndCold />
   </React.StrictMode>
 );
 
@@ -89,7 +89,7 @@ body, html, #root {
   overflow: hidden;
 }
 
-// /src/mot_affiche_mobile.jsx
+// /src/hot_and_cold.jsx
 import React, { useEffect, useState } from "react";
 
 const wordsList = ["ruban", "metro", "oubliettes", "congés", "maison", "repas"];
@@ -144,7 +144,7 @@ export default function MotAfficheMobile() {
 
 // /package.json
 {
-  "name": "mot-affiche-mobile",
+  "name": "hot_and_cold",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

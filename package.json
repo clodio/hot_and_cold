@@ -1,8 +1,8 @@
 {
-  "name": "mot-affiche-mobile",
+  "name": "hot_and_cold",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ton-utilisateur.github.io/mot-affiche-mobile",
+  "homepage": "https://ton-utilisateur.github.io/hot_and_cold",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

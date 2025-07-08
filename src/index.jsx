@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import MotAfficheMobile from "./mot_affiche_mobile";
+import HotAndCold from "./hot_and_cold";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MotAfficheMobile />
+    <HotAndCold />
   </React.StrictMode>
 );
 

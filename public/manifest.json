@@ -1,6 +1,6 @@
 {
-  "name": "Mot Affiche Mobile",
-  "short_name": "MotMobile",
+  "name": "hot_and_cold",
+  "short_name": "hot_and_cold",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",

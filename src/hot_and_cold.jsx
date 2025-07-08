@@ -17,7 +17,7 @@ function getRandomBackgroundAndTextColor() {
   return { bgColor, textColor };
 }
 
-export default function MotAfficheMobile() {
+export default function HotAndCold() {
   const [words, setWords] = useState([]);
   const [index, setIndex] = useState(0);
   const [colorMap, setColorMap] = useState({});
